@@ -5,21 +5,23 @@ export class Navbar extends Component {
     return (
       <div>
         <nav>
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo">
-              Logo
-            </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li>
-                <a href="sass.html">Sass</a>
-              </li>
-              <li>
-                <a href="badges.html">Components</a>
-              </li>
-              <li>
-                <a href="collapsible.html">JavaScript</a>
-              </li>
-            </ul>
+          <div className="nav-wrapper light blue">
+            <div className="container">
+              <a href="#" className="brand-logo">
+                Survivor
+              </a>
+              <ul id="nav-mobile" className="right hide-on-med-and-down">
+                <li>
+                  <a href="sass.html">Mi Nuh Dunce</a>
+                </li>
+                <li>
+                  <a href="badges.html">A it Mek</a>
+                </li>
+                <li>
+                  <a href="collapsible.html">Mi Soon Reach</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </div>
