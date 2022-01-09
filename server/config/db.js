@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 
+// Lines 7 - 9 will prevent warnings in the console
 const connectDB = async () => {
 try {
    const connect = await mongoose.connect(process.env.MONGO_URI,{
