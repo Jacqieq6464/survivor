@@ -4,8 +4,8 @@
   "description": "app to create Counselling Journal",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js"
   },
   "author": "C&J",
   "license": "MIT",
@@ -18,5 +18,9 @@
     "mongoose": "^6.1.5",
     "morgan": "^1.10.0",
     "passport": "^0.5.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15"
   }
 }
