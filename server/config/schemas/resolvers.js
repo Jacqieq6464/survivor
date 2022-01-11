@@ -1,7 +1,7 @@
 const { Class } = require('../model');
 
 const resolvers = {
-Query: {
+    Query: {
     classes: async () => {
         return await Class.find({});
         }
@@ -11,4 +11,4 @@ Query: {
 
 
 
-module.exports = resolvers;
+module.exports = {resolvers};
