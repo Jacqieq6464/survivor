@@ -1,5 +1,6 @@
 const express = require('express')
 const { ApolloServer} = require ('apollo-server-express');
+const path = require('path');
 
 // const dotenv = require('dotenv')
 // const morgan = require('morgan')
@@ -22,9 +23,6 @@ server.applyMiddleware({ app });
 app.use(express.urlencoded({ extended : false}));
 app.use(express.json());
 
-
-
-// dotenv.config({ path: './config/config.env' });
 
 db.once('open', () => {
     app.listen(PORT, () =>{
