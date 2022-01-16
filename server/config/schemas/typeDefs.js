@@ -1,36 +1,38 @@
 const { gql } = require('apollo-server-express'),
 
-// typeDefs are similar to schemas
+// typeDefs define what will be inlcuded in the graph
 
 const typeDefs = gql`
-type Class {
-    _id: ID
-    author: author
+type User {
+    _id: ID!
+    userName: String
+    dateOfBirth: String
+    journals: [Journal]
     therapist: String
-    title of Journal: String
 }
 
 type Journal {
     title: String
-    dateCreated: Int
-    emotions: []
-    author: journals [journal]
+    dateCreated: String
+    howAreYou:String
+    author: User
 
 }
+type Auth{
+token:ID!
+user: User
 
+}
 
 type Query {
-    classes: [class]
+    getUser: User
 }
 
-type Query {
-    journal date: [dates]!
-    Journal (id: ID!): Journal
-    me: User
+type Mutation {
+    login(userName:String!, password:String): Auth
 
-
+    signin(firstName:String, lastName:String, email:String, password:String, therapist:String): Auth
 }
-
 
 
 `;
