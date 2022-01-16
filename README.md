@@ -12,7 +12,7 @@
 
 ## Description:
 
-'Survivor'
+### 'Survivor':
 
 People choose to journal for kinds of reasons however counsellors use journaling as part of their theraputic toolbox to support their clients during their therapeutic journey.
 
@@ -35,7 +35,7 @@ is a digital journalling application that would allow the user to:
 - AS A USER I would like to make retrospective journal entries
 - AS A USER I would like to have the option to write, review, update or delete my journal entries
 
-## Strech Goals
+## Strech Goals:
 
 - AS A USER I would like to be greeted with a landing page that has emojis where I can express how I’m feeling
 - AS A USER I would like to receive daily affirmations
@@ -56,7 +56,7 @@ is a digital journalling application that would allow the user to:
 
 This project is covered under the MIT License: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## How to Contribute
+## How to Contribute:
 
 Either fork the repository `Survivor` or contact `Jai C-Bee` using the details shown below:
 
