@@ -23,6 +23,16 @@ token:ID!
 user: User
 
 }
+input JournalInput {
+    title: String
+    dateCreated: String
+    howAreYou: String
+    author: User
+
+
+
+}
+
 
 type Query {
     getUser: User
@@ -32,6 +42,8 @@ type Mutation {
     login(userName:String!, password:String): Auth
 
     signin(firstName:String, lastName:String, email:String, password:String, therapist:String): Auth
+
+    createJournal(journalData:JournalInput!): Journal
 }
 
 
