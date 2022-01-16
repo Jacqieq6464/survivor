@@ -16,7 +16,7 @@
 
 People choose to journal for kinds of reasons however counsellors use journaling as part of their theraputic toolbox to support their clients during their therapeutic journey.
 
-# Survivor:
+## Survivor:
 
 is a digital journalling application that would allow the user to:
 
