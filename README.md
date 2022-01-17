@@ -14,7 +14,16 @@
 
 ### 'Survivor':
 
+## User Story:
+
 People choose to journal for kinds of reasons however counsellors use journaling as part of their theraputic toolbox to support their clients during their therapeutic journey.
+
+AS A CLIENT who is engaged in counselling to improve my mental health, I would like to be able to
+
+- Write down my thoughts at any point of the day
+- Save my thoughts in a confindental app
+- favourite various journal entries
+- look back at my entries and review my journey
 
 ## Survivor:
 
@@ -50,6 +59,15 @@ is a digital journalling application that would allow the user to:
 - AS A USER I would like the option to share my journal entries
 - AS A USER I would like to be able to make notes to organise myself
 - AS A USER I would like make task only entries
+
+## Tech Stack:
+
+- React.js (front-end)
+- Express Graph QL (back-end)
+- Node.js (back-end)
+- Mongo db (database)
+- Moment (for date stamp)
+- CRUD operation
 
 ## Screen Shots:
 
