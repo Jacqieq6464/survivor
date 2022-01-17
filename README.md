@@ -16,14 +16,14 @@
 
 ## User Story:
 
-People choose to journal for kinds of reasons however counsellors use journaling as part of their theraputic toolbox to support their clients during their therapeutic journey.
+People choose to journal for kinds of reasons however counsellors use journaling as part of their therapeutic toolbox to support their clients during their therapeutic journey.
 
 ## Client User Story:
 
 AS A CLIENT who is engaged in counselling to improve my mental health, I would like to be able to:
 
 - Write down my thoughts at any point of the day
-- Save my thoughts in a confindental app
+- Save my thoughts in a confindential app
 - favourite various journal entries
 - look back at my entries and review my journey
 
@@ -32,7 +32,7 @@ AS A CLIENT who is engaged in counselling to improve my mental health, I would l
 AS A THERAPIST who has referred a client to use the Survivor app, I would like to be able to:
 
 - Give any of my clients access to the Survivor app
-- Review who has set up an account (post referal)
+- Review who has set up an account (post referral)
 - Review when a client last accessed the app
 - Receive journal entries from the client if they choose to share them
 
@@ -54,17 +54,17 @@ is a digital journalling application that would allow the user to:
 - AS A USER I would like to make retrospective journal entries
 - AS A USER I would like to have the option to write, review or update my journal entries
 
-## Strech Goals:
+## Stretch Goals:
 
 - AS A USER I would like to be greeted with a landing page that has emojis where I can express how I’m feeling
 - AS A USER I would like to be able to take any of my journal entries as a favourite
 - AS A USER I would like to have access to a dashboard where I could:
   - Organise my journal entries chronologically
-  - Identify journal entries that I have tagged in my favorites
+  - Identify journal entries that I have tagged in my favourites
   - Search my journal entries based on key words
 - AS A USER I would like to be able to switch between dark & light mode
-- AS A USER I would like to have access to a settings page that will allow me to chanage the settings on my app
-- AS A USER I owuld like to be able to share a journal entry with my therapist
+- AS A USER I would like to have access to a settings page that will allow me to change the settings on my app
+- AS A USER I would like to be able to share a journal entry with my therapist
 - AS A USER I would like to receive daily affirmations
 - AS A USER I would like to have the option to freestyle my journal entries or receive a selection of prompts to help me to process my thoughts
 - AS A USER I would like the option to share my journal entries
