@@ -18,12 +18,23 @@
 
 People choose to journal for kinds of reasons however counsellors use journaling as part of their theraputic toolbox to support their clients during their therapeutic journey.
 
-AS A CLIENT who is engaged in counselling to improve my mental health, I would like to be able to
+## Client User Story:
+
+AS A CLIENT who is engaged in counselling to improve my mental health, I would like to be able to:
 
 - Write down my thoughts at any point of the day
 - Save my thoughts in a confindental app
 - favourite various journal entries
 - look back at my entries and review my journey
+
+## Admin User Story:
+
+AS A THERAPIST who has referred a client to use the Survivor app, I would like to be able to:
+
+- Give any of my clients access to the Survivor app
+- Review who has set up an account (post referal)
+- Review when a client last accessed the app
+- Receive journal entries from the client if they choose to share them
 
 ## Survivor:
 
