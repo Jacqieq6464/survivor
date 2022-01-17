@@ -2,6 +2,9 @@
 
 ## Table of Contents:
 
+- [User Story](#user-story)
+- [Client Story](#client-story)
+- [Admin Story](#admin-story)
 - [Description](#description)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
